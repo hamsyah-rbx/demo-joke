@@ -5,7 +5,7 @@ const dir = process.env.MAKEFUN_OUTPUT_DIR ?? join(import.meta.dirname, "output"
 mkdirSync(dir, { recursive: true });
 
 const joke =
-  "Live demo: asked the agent to rename a variable. It renamed the variable, the company, and pushed to prod. The client loved it.";
+  "Live demo: asked the agent to rename a variable. It renamed the variable, the company, and pushed to prod. The CTO asked which sprint that was planned in.";
 
 if (joke.length < 1 || joke.length > 280) throw new Error(`length ${joke.length} out of range`);
 

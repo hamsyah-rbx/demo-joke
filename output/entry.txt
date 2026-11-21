@@ -1,1 +1,1 @@
-Live demo: asked the agent to rename a variable. It renamed the variable, the company, and pushed to prod. The client loved it.
+Live demo: asked the agent to rename a variable. It renamed the variable, the company, and pushed to prod. The CTO asked which sprint that was planned in.
